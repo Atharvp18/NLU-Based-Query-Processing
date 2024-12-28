@@ -1,1 +1,1 @@
-
+This directory is designated to store the frontend (React) and backend (Python) code for our app, which converts an English query input by the user into a Neo4j query which is then used to hit the graph and return data.
