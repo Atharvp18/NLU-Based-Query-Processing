@@ -1,40 +1,9 @@
-// import logo from "./logo.svg";
-import "./App.css";
-// import React, { useEffect, useState } from "react";
-// import axios from 'axios';
-
-// function App() {
-//   const [accuracy, setAccuracy] = useState("");
-
-// useEffect(() => {
-//   // fetch(`/api/ml`).then(res => res.json()).then(data => {setAccuracy(data.accuracy)});
-//   axios.post("/api/ml", {
-//     string: "lol"
-//   }).then(
-//     (response) => {
-//       setAccuracy(response.data.lol);
-//     },
-//     (error) => {
-//       console.log(error);
-//     }
-//   );
-// }, []);
-
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>Output: {accuracy}</p>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import React, { useState } from "react";
 import neo4j from "neo4j-driver";
 import axios from "axios";
+import "./App.css";
+
 
 const App = () => {
   const [query, setQuery] = useState("");
