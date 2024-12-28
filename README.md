@@ -3,12 +3,14 @@ This Repository has code for entity extraction and intent detection using ILPG
 
 Here is a step by step guide to run the program and use it yourself -
 
-Firstly, to run the backend flask server 
-- cd backend
+Firstly, to run the backend flask server
+- cd react-flask-api-app
+- cd api
 - flask run
 
 Next, to run the frontend react app 
-- cd frontend
+- cd react-flask-api-app
+- npm install
 - npm start/yarn start
 
 Technical Specifications 
